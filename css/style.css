@@ -122,8 +122,8 @@
 body {
   background: #fff;
   color: #3a4145;
-  font-family: 'Droid Serif', serif, "Tahoma", "Microsoft YaHei", Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Ubuntu", "Microsoft YaHei", Arial, sans-serif;
+  font-size: 16px;
   text-shadow: 0 0 1px transparent;
 }
 @media screen and (max-width: 1260px) {
@@ -133,7 +133,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   body {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 h1,
@@ -535,7 +535,7 @@ article footer {
   margin-top: 25px;
   padding-top: 10px;
   border-top: 1px solid #ddd;
-  color: #999;
+  color: #9e457a;
   font-size: 0.9em;
   line-height: 16px;
   position: relative;
@@ -543,7 +543,7 @@ article footer {
   clear: both;
 }
 article footer a {
-  color: #999;
+  color: #9e457a;
 }
 article footer a:hover {
   color: #258fb8;
@@ -771,7 +771,7 @@ article footer .addthis iframe {
   display: inline-block;
 }
 #footer {
-  color: #999;
+  color: #9e457a;
   margin-bottom: 50px;
   font: 0.9em/1.6 "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-shadow: 0 0 1px #fff;
