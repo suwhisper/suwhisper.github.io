@@ -322,7 +322,6 @@
 
 
 
-
 <script src="/js/instantclick.min.js" data-no-instant></script>
 <script data-no-instant>
 InstantClick.on('change', function(isInitialLoad) {
@@ -335,6 +334,9 @@ InstantClick.on('change', function(isInitialLoad) {
       _hmt.push(['_trackPageview', location.pathname + location.search]);
     if (typeof ga !== 'undefined')  // support google analytics
         ga('send', 'pageview', location.pathname + location.search);
+  	if($(".ds-thread").length && typeof DUOSHUO !== 'undefined'){ //support ��˵���ۿ�
+  		DUOSHUO.EmbedThread($('.ds-thread')[0]);
+  	}
   }
 });
 InstantClick.init();</script>
@@ -881,15 +883,17 @@ InstantClick.init();</script>
   
 
   <script type="text/javascript">
-    var duoshuoQuery = {short_name:"suwhisper"};
+    if(typeof duoshuoQuery === 'undefined'){
+        var duoshuoQuery = {short_name:"suwhisper"};
     (function() {
       var ds = document.createElement('script');
       ds.type = 'text/javascript';ds.async = true;
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.unstable.js';
       ds.charset = 'UTF-8';
       (document.getElementsByTagName('head')[0]
       || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
+  }
   </script>
 
   
