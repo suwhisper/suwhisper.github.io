@@ -905,10 +905,10 @@ body {
 }
 .headband {
   height: 3px;
-  background: #222;
+  background: #abd7eb;
 }
 .header {
-  background: #fff;
+  background: #abd7eb;
 }
 .header-inner {
   position: relative;
@@ -925,8 +925,8 @@ body {
   position: relative;
   display: inline-block;
   padding: 0 25px;
-  color: #fff;
-  background: #222;
+  color: #abd7eb;
+  background: #abd7eb;
   border-bottom: none;
   font-family: "Ubuntu", "Microsoft YaHei", Arial, sans-serif;
 }
@@ -935,6 +935,7 @@ body {
   margin-right: 5px;
   line-height: 36px;
   vertical-align: top;
+  color: #abd7eb;
 }
 .site-title {
   display: inline-block;
@@ -956,10 +957,12 @@ body {
   margin-top: 20px;
   padding-left: 0;
   text-align: center;
+  color: #4f4f53;
 }
 .menu .menu-item {
   display: inline-block;
   margin-left: 20px;
+  color: #4f4f53;
 }
 @media screen and (max-width: 767px) {
   .menu .menu-item {
@@ -979,9 +982,10 @@ body {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+  color: #4f4f53;
 }
 .menu .menu-item a:hover {
-  border-bottom-color: #222;
+  border-bottom-color: #abd7eb;
 }
 input.menu-search-input {
   background-repeat: no-repeat;
@@ -992,7 +996,7 @@ input.menu-search-input {
   border-radius: 25px;
   border: 1px solid #c4c4c4;
   box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.17);
-  color: #555;
+  color: #4f4f53;
   font-size: 13px;
   background-image: url("/images/searchicon.png");
   background-size: 15px 15px;
@@ -1051,7 +1055,7 @@ input.menu-search-input {
   vertical-align: top;
   height: 2px;
   width: 100%;
-  background: #fff;
+  background: #abd7eb;
   margin-top: 3px;
 }
 .sidebar-toggle-line:first-child {
@@ -1101,12 +1105,12 @@ input.menu-search-input {
 }
 .site-author-name {
   margin: 5px 0 0;
-  color: #f5f5f5;
+  color: #abd7eb;
 }
 .site-description {
   margin-top: 5px;
   font-size: 14px;
-  color: #555;
+  color: #ccc;
 }
 .site-state {
   overflow: hidden;
@@ -1137,17 +1141,17 @@ input.menu-search-input {
 .feed-link a {
   display: inline-block;
   padding: 0 15px;
-  color: #fc6423;
-  border: 1px solid #fc6423;
+  color: #abd7eb;
+  border: 1px solid #abd7eb;
   border-radius: 4px;
 }
 .feed-link a i {
-  color: #fc6423;
+  color: #abd7eb;
   font-size: 14px;
 }
 .feed-link a:hover {
   color: #fff;
-  background: #fc6423;
+  background: #abd7eb;
 }
 .feed-link a:hover i {
   color: #fff;
@@ -1171,7 +1175,7 @@ input.menu-search-input {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #dd52f2;
+  background: #0b469f;
 }
 .sidebar-nav {
   margin: 0;
@@ -1182,6 +1186,7 @@ input.menu-search-input {
   cursor: pointer;
   border-bottom: 1px solid transparent;
   font-size: 15px;
+  color: #abd7eb;
 }
 .sidebar-nav li:hover {
   color: #f5f5f5;
@@ -1193,11 +1198,11 @@ input.menu-search-input {
   margin-left: 10px;
 }
 .sidebar-nav .sidebar-nav-active {
-  color: #87daff;
-  border-bottom-color: #87daff;
+  color: #abd7eb;
+  border-bottom-color: #abd7eb;
 }
 .sidebar-nav .sidebar-nav-active:hover {
-  color: #87daff;
+  color: #abd7eb;
 }
 .post-toc {
   overflow: hidden;
@@ -1231,10 +1236,10 @@ input.menu-search-input {
   color: #ccc;
 }
 .post-toc .nav .active-current > a {
-  color: #87daff;
+  color: #abd7eb;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #87daff;
+  color: #abd7eb;
 }
 .post-toc-indicator {
   height: 20px;
@@ -1903,7 +1908,7 @@ input.menu-search-input {
   margin-top: 20px;
 }
 .page-post-detail .sidebar-toggle-line {
-  background: #87daff;
+  background: #abd7eb;
 }
 .page-post-detail .comments {
   overflow: hidden;
