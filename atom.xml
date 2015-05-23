@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Hi,I'm Gwen K]]></title>
+  <title><![CDATA[Hi,I'm Gwenk]]></title>
   <subtitle><![CDATA[Follow the shimmery light]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://gwenk.com/"/>
@@ -8,7 +8,7 @@
   <id>http://gwenk.com/</id>
   
   <author>
-    <name><![CDATA[Gwen K]]></name>
+    <name><![CDATA[Gwenk]]></name>
     
   </author>
   
