@@ -1110,7 +1110,7 @@ input.menu-search-input {
 .site-description {
   margin-top: 5px;
   font-size: 14px;
-  color: #ccc;
+  color: #bbb;
 }
 .site-state {
   overflow: hidden;
@@ -1175,7 +1175,7 @@ input.menu-search-input {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #136558;
+  background: #58f1c3;
 }
 .sidebar-nav {
   margin: 0;
