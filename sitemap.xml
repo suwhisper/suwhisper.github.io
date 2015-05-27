@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://gwenk.com/categories/index.html</loc>
+    <lastmod>2015-05-27T03:56:51.959Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://gwenk.com/2015/05/26/senior-high/</loc>
-    <lastmod>2015-05-26T08:26:40.288Z</lastmod>
+    <lastmod>2015-05-27T03:55:58.842Z</lastmod>
   </url>
   
   <url>
@@ -19,11 +24,6 @@
   <url>
     <loc>http://gwenk.com/about/index.html</loc>
     <lastmod>2015-05-24T12:30:58.906Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://gwenk.com/categories/index.html</loc>
-    <lastmod>2015-05-23T05:43:36.225Z</lastmod>
   </url>
   
   <url>
