@@ -943,6 +943,7 @@ body {
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
+  color: #6e7174;
 }
 .use-motion .brand {
   opacity: 0;
@@ -957,12 +958,12 @@ body {
   margin-top: 20px;
   padding-left: 0;
   text-align: center;
-  color: #4f4f53;
+  color: #abd7eb;
 }
 .menu .menu-item {
   display: inline-block;
   margin-left: 20px;
-  color: #4f4f53;
+  background: #bbb;
 }
 @media screen and (max-width: 767px) {
   .menu .menu-item {
@@ -975,14 +976,15 @@ body {
 .menu .menu-item a {
   display: block;
   font-size: 13px;
+  color: #76797c;
   text-transform: capitalize;
   line-height: 1.5;
   border-bottom: 1px solid transparent;
-  transition-property: border-color;
+  transition-property: #bbb;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
-  color: #4f4f53;
+  background: #bbb;
 }
 .menu .menu-item a:hover {
   border-bottom-color: #abd7eb;
@@ -996,7 +998,7 @@ input.menu-search-input {
   border-radius: 25px;
   border: 1px solid #c4c4c4;
   box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.17);
-  color: #4f4f53;
+  color: #76797c;
   font-size: 13px;
   background-image: url("/images/searchicon.png");
   background-size: 15px 15px;
@@ -1068,12 +1070,12 @@ input.menu-search-input {
   top: 0;
   bottom: 0;
   z-index: 1040;
-  box-shadow: inset 0 2px 6px #000;
-  background: #222;
+  box-shadow: inset 0 2px 6px #abd7eb;
+  background: #abd7eb;
   -webkit-transform: translateZ(0);
 }
 .sidebar a {
-  color: #999;
+  color: #222;
   border-bottom-color: #555;
 }
 .sidebar a:hover {
@@ -1100,17 +1102,17 @@ input.menu-search-input {
   margin: 0 auto;
   max-width: 96px;
   height: auto;
-  border: 2px solid #333;
+  border: 2px solid #abd7eb;
   padding: 2px;
 }
 .site-author-name {
   margin: 5px 0 0;
-  color: #abd7eb;
+  color: #222;
 }
 .site-description {
   margin-top: 5px;
   font-size: 14px;
-  color: #bbb;
+  color: #222;
 }
 .site-state {
   overflow: hidden;
@@ -1141,20 +1143,20 @@ input.menu-search-input {
 .feed-link a {
   display: inline-block;
   padding: 0 15px;
-  color: #abd7eb;
-  border: 1px solid #abd7eb;
+  color: #222;
+  border: 1px solid #222;
   border-radius: 4px;
 }
 .feed-link a i {
-  color: #abd7eb;
+  color: #222;
   font-size: 14px;
 }
 .feed-link a:hover {
-  color: #fff;
-  background: #abd7eb;
+  color: #222;
+  background: #222;
 }
 .feed-link a:hover i {
-  color: #fff;
+  color: #222;
 }
 .links-of-author {
   margin-top: 20px;
@@ -1164,7 +1166,7 @@ input.menu-search-input {
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-bottom-color: #555;
+  border-bottom-color: #222;
   font-size: 13px;
 }
 .links-of-author a:before {
@@ -1175,7 +1177,7 @@ input.menu-search-input {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #bb4546;
+  background: #a8d50d;
 }
 .sidebar-nav {
   margin: 0;
@@ -1186,10 +1188,10 @@ input.menu-search-input {
   cursor: pointer;
   border-bottom: 1px solid transparent;
   font-size: 15px;
-  color: #abd7eb;
+  color: #222;
 }
 .sidebar-nav li:hover {
-  color: #f5f5f5;
+  color: #222;
 }
 .page-post-detail .sidebar-nav-toc {
   padding: 0 5px;
@@ -1210,7 +1212,7 @@ input.menu-search-input {
 }
 .post-toc-empty {
   font-size: 14px;
-  color: #666;
+  color: #222;
 }
 .post-toc ol {
   overflow: auto;
@@ -1221,10 +1223,10 @@ input.menu-search-input {
   font-size: 14px;
 }
 .post-toc ol a {
-  color: #999;
+  color: #222;
 }
 .post-toc ol a:hover {
-  color: #ccc;
+  color: #222;
 }
 .post-toc .nav .nav-child {
   display: none;
@@ -1233,7 +1235,7 @@ input.menu-search-input {
   display: block;
 }
 .post-toc .nav .active > a {
-  color: #ccc;
+  color: #222;
 }
 .post-toc .nav .active-current > a {
   color: #abd7eb;
@@ -1332,7 +1334,7 @@ input.menu-search-input {
 .btn:hover {
   border-color: #222;
   color: #222;
-  background: #fff;
+  background: #222;
 }
 .posts-expand {
   padding-top: 40px;
@@ -2002,7 +2004,7 @@ li {
 }
 .site-meta .brand {
   padding: 2px 1px;
-  color: #222;
+  color: #abd7eb;
   background: none;
 }
 @media (max-width: 767px) {
@@ -2041,7 +2043,7 @@ li {
   position: relative;
   display: block;
   height: 4px;
-  background: #222;
+  background: #abd7eb;
 }
 @media (max-width: 767px) {
   .logo-line-before i,
@@ -2073,9 +2075,9 @@ li {
 }
 .menu .menu-item a {
   padding: 5px 10px;
-  background: #222;
+  background: #abd7eb;
   border: none;
-  color: #fff;
+  color: #222;
   transition-property: background;
 }
 .menu .menu-item a:hover {
@@ -2196,4 +2198,11 @@ li {
   max-width: 100%;
   width: auto;
   margin: 0;
+}
+.logo-line-before i,
+.logo-line-after i {
+  background: #abd7eb;
+}
+.back-to-top i {
+  background: #222;
 }
