@@ -265,7 +265,7 @@ p {
   margin: 20px 0;
 }
 a {
-  color: #222;
+  color: #4079ad;
   text-decoration: none;
   border-bottom: 1px solid #999;
 }
@@ -1177,7 +1177,7 @@ input.menu-search-input {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff05ff;
+  background: #ff6940;
 }
 .sidebar-nav {
   margin: 0;
