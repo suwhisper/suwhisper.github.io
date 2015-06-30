@@ -924,7 +924,7 @@ body {
 .brand {
   position: relative;
   display: inline-block;
-  padding: 0 25px;
+  padding: 15 15px;
   color: #abd7eb;
   background: #abd7eb;
   border-bottom: none;
@@ -1185,7 +1185,7 @@ input.menu-search-input {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e46321;
+  background: #1cb3ff;
 }
 .sidebar-nav {
   margin: 0;
