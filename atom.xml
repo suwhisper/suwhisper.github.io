@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Everyday Being Happier]]></title>
-  <subtitle><![CDATA[Follow the shimmery light]]></subtitle>
+  <title><![CDATA[布丁冰 |Every day being happier]]></title>
+  <subtitle><![CDATA[Every day being happier]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://budingice.com/"/>
   <updated>2015-06-28T05:14:39.109Z</updated>
   <id>http://budingice.com/</id>
   
   <author>
-    <name><![CDATA[Gwen K]]></name>
+    <name><![CDATA[小Q]]></name>
     
   </author>
   
