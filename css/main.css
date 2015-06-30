@@ -945,6 +945,14 @@ body {
   font-weight: normal;
   color: #6e7174;
 }
+.site-subtitle {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #6e7174;
+}
 .use-motion .brand {
   opacity: 0;
 }
@@ -1177,7 +1185,7 @@ input.menu-search-input {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c4a82b;
+  background: #e46321;
 }
 .sidebar-nav {
   margin: 0;
